@@ -30,3 +30,60 @@
 *.exe
 *.out
 *.app
+
+
+# Build artifacts
+*.obj
+*.exe
+*.dll
+*.lib
+*.pdb
+*.ilk
+*.idb
+*.exp
+*.log
+
+# Precompiled headers
+*.pch
+
+# Visual Studio specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build directories
+[Bb]uild/
+[Dd]ebug*/
+[Rr]elease*/
+x64/
+x86/
+
+# CMake generated files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Temporary files
+*.tmp
+*.log
+*.vspscc
+*.vssscc
+
+# Visual Studio Code workspace settings
+.vscode/
+
+# Visual Studio generated folders
+.vs/
+
+# Backup files
+*.bak
+*.old
+*.orig
+
+# Other
+ipch/
+*.ipdb
+*.tlog
+*.lastbuildstate
